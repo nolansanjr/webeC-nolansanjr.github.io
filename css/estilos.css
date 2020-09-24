@@ -1,0 +1,415 @@
+/*  UNIDADES DE MEDIDA pt1
+body {
+	font-size:16px; 
+}
+
+div {
+	font-size:20px;
+}
+
+div p {
+	font-size:1em; 
+}
+
+*/
+
+/*  UNIDADES DE MEDIDA pt2
+body {
+	font-size:16px;
+}
+
+div {
+	background:#000;
+	color:#fff;
+	width:50%;
+}
+
+*/
+
+/*  UNIDADES DE COLOR 
+
+h1 {
+	color:rgb(77,200,160);
+}
+
+h2 {
+	color:#2776BE;
+}
+
+h3 {
+	color:rgb(48%,32%,98%);
+}
+
+h4 {
+	color:rgb(49,163,239);
+}
+
+h5 {
+	color:rgba(49,163,239,.5);
+}
+
+*/
+
+/*  MODELOS DE CAJA
+div {
+	width:300px; otros usos: 30% del documento
+	height:200px; no es recomendable ponerlo, con solo width se pone el borde automatico
+	background:#ff8000;
+	margin:20px 50px; podemos usar margin:20px; y sera medida de los 4 lados
+	padding:30px;
+	border:10px solid #000;
+	display:inline-block;
+}
+
+*/
+
+/*  FONDOS
+
+body {
+	background:aqua;
+}
+
+body {
+	background:url(../imagenes/escudo.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	color:brown;
+	background-size:100% 100%; 
+}
+
+div {
+	background:url(../imagenes/escudo.jpg);
+	height:300px;
+	background-repeat:no-repeat;
+}
+
+*/
+
+
+/*  POSICIONAMIENTO DE CAJAS
+div {
+	width:100px;
+	height:100px;
+	background:#4A88F4;
+	color:#fff;
+	font-size:30px;
+	float:left;
+}
+
+.clear {
+	position: relative;
+	top:100px;
+
+}
+
+.caja_padre {
+	width:500px;
+	height:500px;
+	background:#000;
+	position:relative;
+}
+
+.caja {
+	position:fixed;
+	top:100px;
+	bottom:0;
+	right:0;
+	left:300px;
+}
+
+*/
+
+/*  TEXTO Y TIPOGRAFIA
+
+h1 {
+	font-weight:normal;
+	text-align:center;
+	background:#ccc;
+}
+
+p {
+	font-family:Arial,Helvetica,sans-serif,"Times New Roman";
+	font-size:20px;
+	font-weight:normal;
+	text-align:left;
+	line-height:30px;
+	text-decoration:none;
+	text-transform:lowercase;
+	letter-spacing:normal;
+	word-spacing:20px;
+	text-shadow:5px 5px 5px #000;
+}
+
+a {
+	text-decoration:none;
+}
+
+*/
+
+
+/*  ENLACES pt1
+a {
+	font-size:20px;
+	text-decoration:none;
+	margin:10px 20px 10px 0px;
+	padding:10px 20px;
+}
+
+a:link {
+	color:#DF1338;
+}
+
+a:hover {
+	text-decoration:underline;
+	background:#000;
+	font-size:23px;
+	color:#fff;
+}
+
+a:visited {
+	color:green;
+} 
+
+a:active {
+	background:#ff8000;
+}
+
+*/
+
+/*  ENLACE pt2 BOTON 
+a {
+	font-size:20px;
+	text-decoration:none;
+	margin:10px 20px 10px 0px;
+	display:inline-block;
+	padding:10px 20px;
+	background:#3BA7E1;
+	color:#fff;
+	box-shadow: 0px 5px 0px #1D64A6;
+}
+
+a:hover {
+	box-shadow: 0px 2px 0px #1D64A6;
+}
+
+a:active {
+	box-shadow:none;
+}
+
+*/
+
+
+/*  IMAGENES pt1
+
+div {
+	background:#ccc;
+	width: 500px;
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+    IMAGENES pt2 
+
+div {
+	background:#ccc;
+	width: 100%;
+}
+
+img {
+	width:300px;
+	height:auto;
+	margin:auto;
+	display: block;
+	border-radius:10px;
+	box-shadow:7px 7px 0px #000;
+	padding:10px;
+	border: 1px solid #000; 
+}
+
+*/
+
+/*  LISTAS pt1
+ul {
+	list-style-type:square;
+	list-style-position:inside;
+}
+
+
+ol {
+	list-style-type:lower-latin;
+}
+
+    LISTAS pt2
+
+.menu {
+	width:100%;
+	background:#000;
+	list-style:none;
+	margin: 0;
+	padding:0;
+}
+
+.menu li {
+	display:inline-block;
+}
+
+.menu li a {
+	padding:10px 20px;
+	display:inline-block;
+	color:#fff;
+}
+
+.menu li a:hover {
+	background:#ccc;
+	color:#ff8000;
+	text-decoration: none;
+}
+
+*/
+
+
+/*  TABLAS
+
+table {
+	border-collapse: collapse;
+}
+
+table td {
+	border:1px solid #000;
+	padding:20px;
+}
+
+table tr:hover {
+	background: #ccc;
+}
+
+table td:hover {
+	background: #000;
+	color:#fff;
+}
+
+*/
+
+
+/*  FORMULARIOS 
+
+form {
+	width:25%;
+	border:1px solid #ccc;
+	margin:20px;
+	padding:20px;
+}
+
+label {
+	font-size:12px;
+	display:block;
+	width:100%;
+}
+
+textarea {
+	resize:vertical;
+	max-height:300px;
+	min-height:100px;
+}
+
+input,textarea {
+	margin-bottom:20px;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+	border:1px solid #1668C4;
+}
+
+input[type="submit"] {
+	margin-bottom:0;
+	background: #1668C4;
+	color:#fff;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background: #4A88F4;
+	cursor:pointer;
+}
+
+*/
+
+/*  LAYOUT */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#e6e6e6;
+}
+
+header, .main, footer {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+
+}
+
+header nav {
+	background: #528FD5;
+	overflow:hidden;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background: #75ACEC;
+
+}
+
+.main .articles {
+	width: 68.5%;
+	margin-right:1.5%; 
+	float:left;
+	
+}
+
+.main .articles article {
+	padding:20px;
+	background: #fff;
+	margin-bottom:20px;
+}
+
+aside {
+	width: 30%;
+	background: #ff8000;
+	float:left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+footer {
+	background: #000;
+	color:#fff;
+	clear:both;
+	padding: 10px 0px;
+	text-align: center;
+}
+

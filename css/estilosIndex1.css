@@ -1,0 +1,29 @@
+h1,h2,h3,h4,h5,h6 {
+    color:red;
+}
+
+h1 {
+	font-size:50px;
+}
+
+h2 {
+	font-size:40px;
+}
+
+p {
+	color:orange;
+}
+
+p a {
+	font-size:30px;
+}
+
+p .green {
+	color:green;
+}
+
+a[href="https://www.falconmasters.com"]{
+	color:green;
+	font-size:30px;
+}
+
