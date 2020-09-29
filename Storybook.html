@@ -2,6 +2,60 @@
 <html>
 
 <head>
+    <style>
+        article {
+            font-size: 12px;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            color: steelblue;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: mediumblue;
+            font-size: 16px;
+        }
+
+        thead {
+            background-color: steelblue;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 2px;
+            font-weight: normal;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8e8e8;
+        }
+        
+        .holiday{
+            background-color: white;
+            color: darkgray;
+        }
+        
+        .exercises{
+            font-weight: bold;
+        }
+
+        abbr,
+        dfn {
+            display: inline;
+        }
+
+    </style>
+
     <meta charset="UTF-8">
     <title>Storybook for the Web Engineering Module</title>
 </head>
@@ -22,7 +76,6 @@
             <article>
                 <h2>Overview</h2>
                 <table>
-                    <caption>Delivery dates</caption>
                     <thead>
                         <tr>
                             <th> Date </th>
@@ -31,9 +84,89 @@
                         </tr>
                     </thead>
                     <tbody>
-
-                        <!-- fill from /storybook.txt here -->
-
+                        <tr>
+                            <th>Fr, 18.09.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>HTML</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 25.09.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>CSS</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 02.10.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Grails, Web, MVC</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 09.10.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>GSP, Template, Taglib, Layout</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 16.10.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Consolidation training, Testing</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 23.10.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Persistence, DB-Access (GORM)</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 30.10.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>REST, Services</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 06.11.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Role-based Security</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 13.11.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th class="exercises">Übungsvorbereitung ** Anwesenheitspflicht **</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 20.11.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th class="exercises">Übungsanlass</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 04.12.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th class="exercises">Übungsanlass</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 11.12.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Javascript</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 18.12.20</th>
+                            <th>12:15 - 15:00</th>
+                            <th class="exercises">Responsive / Mobile Web, Übungsabgabe </th>
+                        </tr>
+                        <tr>
+                            <th class="holiday">Fr, 25.12.20</th>
+                            <th class="holiday" colspan="2">Weihnachtsferien </th>
+                        </tr>
+                        <tr>
+                            <th class="holiday">Fr, 01.01.20</th>
+                            <th class="holiday" colspan="2">Weihnachtsferien </th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 08.01.21</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Deployment (*)</th>
+                        </tr>
+                        <tr>
+                            <th>Fr, 15.01.21</th>
+                            <th>12:15 - 15:00</th>
+                            <th>Prüfungsvorbereitung</th>
+                        </tr>
                     </tbody>
                     <tfoot>
                         <tr>
